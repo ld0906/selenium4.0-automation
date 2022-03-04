@@ -1,0 +1,5 @@
+03/04/2022 11:27:02 AM - DEBUG - I am a debug level log.
+03/04/2022 11:27:02 AM - INFO - I am a info level log.
+03/04/2022 11:27:02 AM - WARNING - I am a warning level log.
+03/04/2022 11:27:02 AM - ERROR - I am a error level log.
+03/04/2022 11:27:02 AM - CRITICAL - I am a critical level log.
