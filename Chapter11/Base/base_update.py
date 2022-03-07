@@ -37,3 +37,16 @@ class Base():
     #退出
     def quit(self):
         self.driver.quit()
+    
+    #切换到iframe，在点击“新增”岗位信息按钮前调用
+    def go_frame_1(self):
+        self.driver.switch_to.frame("iframe6")
+
+    #切换到主页函数，在需要切换到主页时调用
+    def go_content(self):
+        self.driver.switch_to.default_content()
+
+    #切换到iframe，在输入岗位名称前调用
+    def go_frame_2(self):
+        self.driver.switch_to.frame("layui-layer-iframe1")
+

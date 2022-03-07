@@ -1,5 +1,5 @@
 import time,os
-import fateadm_api #引入斐斐打码验证码Python包，源文件在/Chapter8/fateadm_api.py
+import fateadm_api 
 
 from functions import return_driver, id, name,xpath
 
