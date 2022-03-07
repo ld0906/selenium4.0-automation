@@ -91,7 +91,7 @@ Version in 0.7.1
 # TODO: simplify javascript using ,ore than 1 class in the class attribute?
 
 import datetime
-#2.7版本为 import StringIO
+#2.7 version is import StringIO
 import io
 import sys
 import time

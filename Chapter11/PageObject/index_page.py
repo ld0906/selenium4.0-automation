@@ -1,4 +1,4 @@
-from Base.base_update import  Base
+from Chapter11.Base.base_update import  Base
 from selenium.webdriver.common.by import  By
 import time
 class IndexPage(Base):

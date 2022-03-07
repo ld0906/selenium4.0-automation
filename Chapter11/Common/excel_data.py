@@ -1,5 +1,5 @@
 import  xlrd,os
-from function import project_path
+from Chapter11.Common.function import project_path
 #读excel操作、所有数据存放字典中
 #filename为文件名
 #index为excel sheet工作簿索引

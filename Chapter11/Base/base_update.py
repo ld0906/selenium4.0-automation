@@ -1,4 +1,4 @@
-from Common.log import FrameLog
+from Chapter11.Common.log import FrameLog
 from selenium import webdriver
 #对base代码进行优化、增加
 class Base():
