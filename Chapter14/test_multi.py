@@ -1,9 +1,19 @@
 #coding=utf-8
 import unittest
 import  threading
-from thred_unit.basic_case import ParaCase
-from thred_unit.basic_case import DetailCase
+from base_unit import ParaCase
+from basic_unit import DetailCase
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
+chrome_driver_server = Service("./chromedriver")
+# driver  = webdriver.Chrome(service=chrome_driver_server)
+# driver.get("https://www.baidu.com")
+
+firefox_driver_server = Service("./geckodriver")
+# driver2 = webdriver.Firefox(service=firefox_driver_server)
+# driver2.get("https://www.baidu.com")
 
 #本例实现本地多个浏览器对同一脚本并发操作
 #继承父类threading.Thread
@@ -20,11 +30,11 @@ class myThread (threading.Thread):
 def run_suite(device):
     suite = unittest.TestSuite()
     suite.addTest(ParaCase.parametrize(DetailCase, param=device))
-unittest.TextTestRunner(verbosity=1).run(suite)
+    unittest.TextTestRunner(verbosity=1).run(suite)
 
 if __name__ == '__main__':
     #以下代是在本地通过同时访问多浏览器
-    dr = [webdriver.Firefox(executable_path='需要输入正确的firefox webdriver路径'), webdriver.Chrome('需要输入正确的Chrome webdriver路径’)]
+    dr = [webdriver.Firefox(service=firefox_driver_server), webdriver.Chrome(service=chrome_driver_server)]
     for i in range(len(dr)):
         print(dr[i])
         th = myThread(dr[i])
