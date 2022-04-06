@@ -1,0 +1,10 @@
+#Please firstly create virtualenv of python to run the automation.
+
+#Step1: install virtualenv,commands as below:
+` pip install virtualenv`  or ` pip3 install virtualenv`
+
+#Step2: setup virtual environment
+`virtualenv <virtual environment name >`
+
+#Step 3: install packages needed for automation
+`pip install -r requirements.txt`
