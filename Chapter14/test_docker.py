@@ -39,4 +39,3 @@ if __name__ == '__main__':
     th2 =  myThread(driver2)
     th2.start()
     th2.join()
-
