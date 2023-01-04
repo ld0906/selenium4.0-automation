@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Selenium滑块演示</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/foundation.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body style="padding-top:50px;">
+      <div class="small-10 medium-11 columns">
+        <div id="range1" class="range-slider" data-slider="50" data-options="display_selector:#number_display;">
+          <span id="sliding1" class="range-slider-handle" ></span>
+          <span id="sliding2" class="range-slider-active-segment" style="width: 100%;"></span>
+        </div>
+      </div>
+      <div class="small-2 medium-1 columns">
+        <span id="number_display" style="display: block;margin-top: 16px;">50</span>
+      </div>
+
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+</body>
+</html>
