@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 def login(browser_type):
     driver = return_driver(browser_type)
-    driver.get("http://124.223.13.201/login")
+    driver.get("http://localhost/login")
     filename = "capture.png"
     if os.path.exists(filename):
         os.remove(filename)
