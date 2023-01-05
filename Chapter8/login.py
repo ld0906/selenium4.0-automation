@@ -8,7 +8,7 @@ import fateadm_api #引入斐斐打码验证码Python包，源文件在/Chapter8
 #这是在mac上执行的基于chrome浏览器上的测试，如下driver地址请根据实际情况进行修改。
 chrome_driver_server = Service("/Users/jason118/Downloads/chromedriver")
 driver  = webdriver.Chrome(service=chrome_driver_server)
-driver.get("http://testdao.site/login")
+driver.get("http://localhost/login")
 filename = "capture.png"
 if os.path.exists(filename):
     os.remove(filename)

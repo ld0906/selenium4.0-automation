@@ -5,7 +5,7 @@ from functions import return_driver, id, name,xpath
 
 def login():
     driver = return_driver()
-    driver.get("http://testdao.site/login")
+    driver.get("http://localhost/login")
     filename = "capture.png"
     if os.path.exists(filename):
         os.remove(filename)

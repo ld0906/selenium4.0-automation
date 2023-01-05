@@ -303,10 +303,10 @@ class FateadmApi():
 
 
 def TestFunc():
-    pd_id           = "113073"     #用户中心页可以查询到pd信息
-    pd_key          = "RZqrfm13rvabcw3yPT2/Wg6di+7M+JLP"
-    app_id          = "313073"     #开发者分成用的账号，在开发者中心可以查询到
-    app_key         = "2jDcbWdHmAIGBWih4Ykx+EzQBYVHsZi7"
+    pd_id           = "xx"     #用户中心页可以查询到pd信息
+    pd_key          = "xx"
+    app_id          = "xx"     #开发者分成用的账号，在开发者中心可以查询到
+    app_key         = "xx"
     #识别类型，
     #具体类型可以查看官方网站的价格页选择具体的类型，不清楚类型的，可以咨询客服
     pred_type       = "50100"
