@@ -10,6 +10,10 @@ def login():
     if os.path.exists(filename):
         os.remove(filename)
 
+    login_screenshot = "login_screenshot.png"
+    if os.path.exists(login_screenshot):
+        os.remove(login_screenshot)
+
     ele1 = xpath('//*[@id="signupForm"]/div[1]/div[2]/a/img')
     ele1.screenshot(filename)
     name('username').clear()
@@ -25,4 +29,5 @@ def login():
 
     #点击‘登录’按钮
     id('btnSubmit').click()
+    driver.get_screenshot_as_file(login_screenshot)
     time.sleep(5)
