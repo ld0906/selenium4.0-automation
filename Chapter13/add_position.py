@@ -4,7 +4,7 @@ from functions import return_driver,name,id,xpath
 
 def add_position(postName,postCode):
     driver = return_driver()
-    driver.get("http://testdao.site/index")
+    driver.get("http://124.223.13.201/index")
 
     time.sleep(15)
     #点击左侧导航栏->系统管理
