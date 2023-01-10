@@ -5,7 +5,7 @@ from functions import return_driver, id, name,xpath
 
 def login():
     driver = return_driver()
-    driver.get("http://localhost/login")
+    driver.get("http://124.223.13.201/login")
     filename = "capture.png"
     if os.path.exists(filename):
         os.remove(filename)
