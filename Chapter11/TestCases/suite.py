@@ -10,7 +10,7 @@ if __name__ == '__main__':
                                                      pattern ='login*.py',
                                                     top_level_dir=None)
     now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
-    filepath= project_path() + "/Reports/" + now + '.html'
+    filepath= project_path() + "/Reports/" + "Report_daniu" + '.html'
     fp=open(filepath,'wb')
     #Define report title and description
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'自动化测试报告',description=u'测试报告')

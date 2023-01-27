@@ -19,3 +19,15 @@ Fri, 11 Mar 2022 17:29:38 functions.py INFO Begin to log in system.
 Fri, 11 Mar 2022 17:29:50 functions.py INFO Log in system done.
 Fri, 11 Mar 2022 17:29:50 functions.py INFO Begin to add position in system.
 Fri, 11 Mar 2022 17:30:24 functions.py INFO Add position done.
+Tue, 17 Jan 2023 21:20:41 functions.py INFO Read Excel Files to get test data.
+Tue, 17 Jan 2023 21:20:41 functions.py INFO Begin to log in system.
+Tue, 17 Jan 2023 21:20:51 functions.py INFO Log in system done.
+Tue, 17 Jan 2023 21:20:51 functions.py INFO Begin to add position in system.
+Tue, 17 Jan 2023 21:21:26 functions.py INFO Add position done.
+Tue, 17 Jan 2023 21:22:34 functions.py INFO Read Excel Files to get test data.
+Tue, 17 Jan 2023 21:22:34 functions.py INFO Begin to log in system.
+Tue, 17 Jan 2023 21:22:42 functions.py INFO Log in system done.
+Tue, 17 Jan 2023 21:22:42 functions.py INFO Begin to add position in system.
+Tue, 17 Jan 2023 21:23:17 functions.py INFO Add position done.
+Tue, 17 Jan 2023 21:26:29 functions.py INFO This is a log here.
+Tue, 17 Jan 2023 21:26:48 functions.py INFO This is a log here.
