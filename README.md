@@ -11,11 +11,6 @@
   项目介绍及使用说明文档，详见[此处](https://github.com/ld0906/selenium4.0-automation/blob/master/python%E8%87%AA%E5%8A%A8%E5%8C%96selenium%E9%A1%B9%E7%9B%AE.pptx)。
 - `requirements.txt`  
   存放自动化测试所需的 Python 依赖库列表。
-- `tests/`  
-  自动化测试用例目录（如有）。
-- `src/` 或其他源码目录  
-  存放核心自动化测试代码（如有）。
-- 其它常见目录如：`report/`（测试报告）、`utils/`（工具类）等。
 
 ---
 
