@@ -40,29 +40,8 @@ pip install -r requirements.txt
 
 # 待测大牛系统安装
 
-## 安装步骤
-
-### 步骤1
-在 Windows 操作系统下首先安装 JDK 11
-
-### 步骤2
-下载文件 dntest.jar  
-文件地址: [dntest.jar](https://github.com/ld0906/selenium4.0-automation-project/blob/master/dntest.jar)
-
-### 步骤3
-执行命令
-
-```bash
-java -jar dntest.jar
-```
-
-### 步骤4
-打开网站 [http://localhost/login](http://localhost/login)
-
-### 步骤5
-登录系统  
-用户名：`admin`  
-密码：`admin123`
+## 安装步骤请参考如下代码库的README.md
+https://github.com/ld0906/selenium4.0-system-test-install 
 
 ---
 
